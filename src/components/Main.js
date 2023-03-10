@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './Main.css'
 import PersonalDetails from './PersonalDetails'
 import uniqid from 'uniqid'
+
 class InputFieldsContainer extends Component {
   render() {
     return (
