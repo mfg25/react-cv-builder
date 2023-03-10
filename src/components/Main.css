@@ -1,0 +1,89 @@
+*{
+    color: rgb(56, 90, 79);
+}
+.main-container{
+    width: 33vw;
+    height: fit-content;
+    background-color: rgb(248, 248, 245);
+    border: 3px solid rgb(56, 90, 79);
+    padding: 30px 30px 30px 30px
+}
+
+#name-input{
+    font-size: 35px;
+    height: 50px;
+}
+.input-text{
+    width: 100%;
+    height: 20px;
+    margin: 5px 0px 5px 0px;
+    background-color: rgb(248, 248, 245);
+    border: none;
+    outline: none;
+    resize: none;
+}
+.title{
+    font-size: 1.8em;
+    margin: 10px 0px 20px 0px
+}
+
+.add-button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+.add-button:hover{
+    background-color: rgb(207, 207, 198);
+}
+
+#form-container{
+    width: 100%;
+    height: fit-content;
+    border: 2px solid rgb(56, 90, 79);
+    box-sizing: border-box;
+    padding: 10px;
+}
+#form-container > *{
+    margin: 10px;
+}
+#form-container div{
+    display: flex;
+    flex-direction: column;
+}
+#job-description{
+  resize: none;
+}
+.job-list{
+    width: 100%;
+    background-color: rgb(238, 238, 230);
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.job-list button{
+    font-weight: 800;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+.job-list button:hover{
+    background-color: rgb(56, 90, 79);
+    color: rgb(238, 238, 230);
+}
+.job-list p{
+    word-break: break-all;
+}
+.personal-details-divs{
+    width: 100%
+}
+#personal-details-container{
+    display: flex;
+    flex-direction: row;
+}
+#info-div{
+    margin-left: 5px;
+    width: 80%;
+}
