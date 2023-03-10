@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 export class InputText extends Component {
   constructor(props){
     super(props)
@@ -26,6 +27,7 @@ export class InputText extends Component {
   render() {
     return (
       <div className='personal-details-divs'>
+        {this.props.id !== 'name-input' && <img src={this.props.src}></img>}
         <textarea id={this.props.id} maxLength="25" className="input-text" type='text' placeholder={this.props.placeholder} onKeyUp={this.resize} onChange={this.changeState} value={this.state.value}/>
       </div>
     )
